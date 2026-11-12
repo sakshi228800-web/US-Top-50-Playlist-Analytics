@@ -1,3 +1,10 @@
+## Live Interactive Dashboard
+
+Explore the project through the deployed Streamlit application.
+
+[🚀 Open United States Top 50 Playlist Analytics Dashboard](https://us-top-50-playlist-analytics-qbnekscs2tm8rrfasazobj.streamlit.app/)
+
+The dashboard allows users to explore playlist KPIs, song popularity, artist performance, chart rankings, and interactive visualizations.
 # United States Top 50 Playlist Performance and Song Popularity Trend Analysis
 
 ## Project Overview
