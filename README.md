@@ -32,3 +32,34 @@ An interactive Streamlit dashboard has also been developed to make the analysis 
 - Pandas
 - NumPy
 - Matplotlib
+
+
+
+## Dashboard Preview
+
+![Dashboard Overview](Screenshot%202026-11-12%20120536.png)
+## Dashboard Preview
+
+### 1. Key Performance Indicators & Popularity Trend
+![Dashboard Overview](Screenshot%202026-11-12%20120536.png)
+
+### 2. Top 10 Songs by Chart Entries
+![Top 10 Songs](Screenshot%202026-11-12%20120631.png)
+
+### 3. Top Songs Performance Table
+![Song Performance Table](Screenshot%202026-11-12%20120702.png)
+
+### 4. Artist Dominance Analysis
+![Artist Dominance](Screenshot%202026-11-12%20120736.png)
+
+### 5. Artist Performance Table
+![Artist Performance Table](Screenshot%202026-11-12%20120809.png)
+
+### 6. Popularity vs Playlist Ranking
+![Popularity vs Ranking](Screenshot%202026-11-12%20120839.png)
+
+### 7. Explicit Content Analysis
+![Explicit Content Analysis](Screenshot%202026-11-12%20120914.png)
+
+### 8. Album Type Analysis
+![Album Type Analysis](Screenshot%202026-11-12%20120942.png)
