@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -20,12 +19,13 @@ st.markdown(
 # Automatically load dataset
 DATASET_PATH = Path(__file__).parent / "Atlantic_United_States (1).csv"
 
-try:
-    df = pd.read_csv(DATASET_PATH)
-    st.success("Playlist dataset loaded successfully!")
-except FileNotFoundError:
+if not DATASET_PATH.exists():
     st.error("Dataset not found. Check your GitHub repository.")
     st.stop()
+
+df = pd.read_csv(DATASET_PATH)
+
+st.success("Playlist dataset loaded successfully!")
 
 # Validate dataset columns
 required_columns = [
@@ -207,7 +207,7 @@ fig = px.bar(
 st.plotly_chart(fig, use_container_width=True)
 
 # 6. Album type
-st.subheader("6. Album type Analysis")
+st.subheader("6. Album Type Analysis")
 
 album_data = (
     filtered.groupby('album_type')['popularity']
@@ -242,4 +242,3 @@ st.caption(
     "United States Top 50 Playlist Performance and "
     "Song Popularity Trend Analysis | Python & Streamlit"
 )
-```
