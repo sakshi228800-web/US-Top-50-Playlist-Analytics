@@ -1,5 +1,4 @@
-?variant="standard" id="58319" title="Corrected Streamlit Dashboard Code"}
-```python
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
